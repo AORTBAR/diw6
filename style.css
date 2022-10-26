@@ -1,0 +1,46 @@
+* { 
+    margin: 0;
+    /* es como el margin cero el box sizing */
+    box-sizing: border-box;
+}
+
+footer{
+    height: 10vh;
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;  
+}
+footer img{
+    /* 75 por ciento del padre */
+    height: 75%;
+    width: auto;
+}
+main{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 90vh;
+    background-color: aquamarine;
+    background-image: url(imagen1.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    
+}
+main img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border: 3px solid blue;
+
+}
+main{
+    
+}
+.a img{
+    z-index: 10;
+}
+
+
+/* como posicionar con y sin background */
