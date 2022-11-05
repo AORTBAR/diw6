@@ -44,6 +44,14 @@ main{
     position: absolute;
     z-index: 30;
 }
+.b{
+    
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+}
 
 
 /* como posicionar con y sin background */
