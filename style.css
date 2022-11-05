@@ -38,8 +38,11 @@ main img{
 main{
     
 }
-.a img{
+.a{
     z-index: 10;
+    object-fit: contain;
+    position: absolute;
+    z-index: 30;
 }
 
 
